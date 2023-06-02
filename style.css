@@ -1,0 +1,42 @@
+.orbitron{
+
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    font-family: 'Space Mono', monospace
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    display: block;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul.horizontal li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    float: left;
+}
+
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li:hover {
+    background-color: #c44242;
+}
